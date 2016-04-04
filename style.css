@@ -5,5 +5,14 @@ body {
 	background: -webkit-linear-gradient(left,  #606c88 54%,#3f4c6b 92%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right,  #606c88 54%,#3f4c6b 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 */
-	padding-top: 180px;
 }
+
+.wiki-large {
+	width: 25%;
+	height: auto;
+}
+
+.wiki-small {
+	width: 700px;
+	height: auto;
+}}
