@@ -5,14 +5,25 @@ body {
 	background: -webkit-linear-gradient(left,  #606c88 54%,#3f4c6b 92%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right,  #606c88 54%,#3f4c6b 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 */
+	transition: all-1s;
 }
 
 .wiki-large {
-	width: 25%;
+	width: 20%;
 	height: auto;
+	padding-bottom: 30px;
 }
 
 .wiki-small {
-	width: 700px;
+	width: 100%;
 	height: auto;
-}}
+}
+
+input {
+	font-size: 18px; 
+	font-family: Dosis;
+}
+
+button {
+	
+}

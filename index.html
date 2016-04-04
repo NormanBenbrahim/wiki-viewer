@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	
 	<title>Wikipedia Viewer</title>
@@ -8,8 +8,15 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css"> 
 
-	<!-- This version of jQuery is compatible with bootstrap-->
+	<!-- This version of jQuery is compatible with bootstrap
 	<script src="https://code.jquery.com/jquery-1.12.0.js"></script>
+	-->
+
+	<!-- Ensure the view is mobile friendly -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Google font-->
+	<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -28,7 +35,11 @@
 				<img class="wiki-large hidden-xs" src="https://upload.wikimedia.org/wikipedia/en/0/02/Wikipedia-en-logo-ball-upright-hole.png">
 				<!-- The same logo for smartphones-->
 				<img class="wiki-small visible-xs" src="https://upload.wikimedia.org/wikipedia/en/0/02/Wikipedia-en-logo-ball-upright-hole.png">
-				<p style="font-size:70px; font-family: Garamond bold;">Wikipedia<br>Viewer</p>
+				<p style="font-size:40px; font-family: Dosis; padding-bottom: 10px">Click <a href="http://en.wikipedia.org/wiki/Special:Random">Here</a> For A Random Article</p>
+				<input type="text" name="FirstName" placeholder="Search Wikipedia"><button class="btn btn-lg btn-default"></button>
+
+
+
 
 			</div>
 			<!-- /col-xs-12 -->
