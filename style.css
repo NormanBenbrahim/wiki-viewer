@@ -20,10 +20,22 @@ body {
 }
 
 input {
-	font-size: 18px; 
+	font-size: 30px; 
 	font-family: Dosis;
+	border: 1px solid black;
 }
 
-button {
-	
+.btn {
+	margin-bottom: 15px;
+	color: #0645AD;
+	margin-left: 5px;
+	padding: 0px 13px 0px 13px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.banner-text {
+	font-size: 40px;
+	font-family: Dosis; 
+	padding-bottom: 10px;
 }
