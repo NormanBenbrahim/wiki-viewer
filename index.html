@@ -12,6 +12,9 @@
 	<script src="https://code.jquery.com/jquery-1.12.0.js"></script>
 	-->
 
+	<!-- Custom stylesheet -->
+	<script src="interact.js"></script>
+
 	<!-- Ensure the view is mobile friendly -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -38,8 +41,8 @@
 					<img class="wiki-large hidden-xs" src="https://upload.wikimedia.org/wikipedia/en/0/02/Wikipedia-en-logo-ball-upright-hole.png">
 					<!-- The same logo for smartphones-->
 					<img class="wiki-small visible-xs" src="https://upload.wikimedia.org/wikipedia/en/0/02/Wikipedia-en-logo-ball-upright-hole.png">
-					<p class="banner-text">Click <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">Here</a> For A Random Article</p>
-					<input type="text" name="SearchField" placeholder="Search Wikipedia"><button class="btn btn-lg btn-default"><i class="fa fa-arrow-circle-right" style="font-size:44px"></i></button>
+					<p class="banner-text">Click <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank" class="fade">Here</a> For A Random Article</p>
+					<input type="text" id="searchBox" placeholder="Search Wikipedia" onkeypress="searchWikiEnter(event)"><button class="btn btn-lg btn-default" onmousedown="searchWikiClick()"><i class="fa fa-arrow-circle-right" style="font-size:44px"></i></button>
 
 				</div>
 				<!-- /col-xs-12 -->
