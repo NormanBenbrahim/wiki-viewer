@@ -5,6 +5,8 @@ body {
 	background: -webkit-linear-gradient(left,  #606c88 54%,#3f4c6b 92%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right,  #606c88 54%,#3f4c6b 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 */
+	padding-top: 50px;
+  transition: all 1s ease;
 }
 
 .wiki-large {
@@ -41,10 +43,37 @@ input {
 }
 
 .fade {
-	opacity: 0.5;
+	opacity: 1;
 	transition: all 0.5s;
 }
 
 .fade:hover {
-	opacity: 1;
+	opacity: 0.5;
+}
+
+.searchmatch {
+  color: red;
+}
+
+.panel-body {
+  transition: 1s ease;
+  font-family: Dosis;
+}
+
+.text-title {
+  font-size: 28px;
+}
+
+.text-description {
+  font-size: 18px;
+}
+
+a {
+  opacity: 1;
+}
+
+a:hover {
+  transition: 0.5s ease;
+  text-decoration: none;
+  opacity: 0.5;
 }

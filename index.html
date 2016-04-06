@@ -1,58 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	
-	<title>Wikipedia Viewer</title>
-
-	<!-- Latest compiled and minified bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css"> 
-
-	<!-- This version of jQuery is compatible with bootstrap
-	<script src="https://code.jquery.com/jquery-1.12.0.js"></script>
-	-->
-
-	<!-- Custom stylesheet -->
-	<script src="interact.js"></script>
-
-	<!-- Ensure the view is mobile friendly -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Google font-->
-	<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
-
-	<!-- Font awesome icons -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-</head>
-
-	<body>
-
 		<!-- container-fluid -->
 		<div class="container-fluid"> 
 			
-			<!-- row -->
-			<div class="row"> 
-				
-				<!-- col-xs-12 -->
-				<div class="text-center col-xs-12"> 
-					
-					<!-- A logo for larger screens-->
-					<img class="wiki-large hidden-xs" src="https://upload.wikimedia.org/wikipedia/en/0/02/Wikipedia-en-logo-ball-upright-hole.png">
-					<!-- The same logo for smartphones-->
-					<img class="wiki-small visible-xs" src="https://upload.wikimedia.org/wikipedia/en/0/02/Wikipedia-en-logo-ball-upright-hole.png">
-					<p class="banner-text">Click <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank" class="fade">Here</a> For A Random Article</p>
-					<input type="text" id="searchBox" placeholder="Search Wikipedia" onkeypress="searchWikiEnter(event)"><button class="btn btn-lg btn-default" onmousedown="searchWikiClick()"><i class="fa fa-arrow-circle-right" style="font-size:44px"></i></button>
+  <!-- row -->
+  <div class="row"> 
 
-				</div>
-				<!-- /col-xs-12 -->
+    <!-- col-xs-12 -->
+    <div class="text-center col-xs-12"> 
 
-			</div>
-			<!-- /row -->
+      <!-- A logo for larger screens-->
+      <img class="wiki-large hidden-xs" src="https://upload.wikimedia.org/wikipedia/en/0/02/Wikipedia-en-logo-ball-upright-hole.png">
+      <!-- The same logo for smartphones-->
+      <img class="wiki-small visible-xs" src="https://upload.wikimedia.org/wikipedia/en/0/02/Wikipedia-en-logo-ball-upright-hole.png">
+      <p class="banner-text">Click <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank" class="fade">Here</a> For A Random Article</p>
+      <input type="text" id="searchBox" placeholder="Search Wikipedia" onkeypress="searchWikiEnter(event)"><button class="btn btn-lg btn-default" onmousedown="searchWikiClick()"><i class="fa fa-arrow-circle-right" style="font-size:44px"></i></button>
 
+    </div>
+    <!-- /col-xs-12 -->
+    
+    
+    
+    
+    <!-- col-xs-12 -->
+    <div class='col-xs-12 col-md-7 col-md-offset-3'>
+    
+      <div id="addPanels"></div>
+    
+    </div>
+    <!-- /col-xs-12 -->
+
+  </div>
+  <!-- /row -->
+
+      
+  <!-- Anything that is queried from the search should be returned below-->    
+      
+      
 		</div>
 		<!-- /container-fluid -->
-
-	</body>
-
-</html>
